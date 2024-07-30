@@ -1,11 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     border-color: black;
     border-style: solid;
     border-width: 2px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 2000px;
 }
 
 li {
     text-align: left;
 }
+
+.favorites {
+    background-color: aqua;
+}
+
+.recipes {
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 200px;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+
+a:visited, a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: white;
+    text-decoration: line-through;
+}
+
+
+
